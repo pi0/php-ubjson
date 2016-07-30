@@ -32,15 +32,17 @@ require './vendor/autoload.php';
 $payload = ['hello'=>123];
 
 // Encode using UBJSON
-$encoded = \UBJSON::encode($payload); //string(24)  or 
+$encoded = \UBJSON::encode($payload);
 
 # Incorrect! 
-echo($encoded); // "{SUhelloU{}" 
+echo($encoded); // {SUhelloU{}
+
 # Correct!
-var_dump(bin2hex($encoded)); // "7b53550568656c6c6f557b7d"
+echo(bin2hex($encoded)); // "7b53550568656c6c6f557b7d"
 
 // Test decoding
 $decoded = \UBJSON::decode($encoded);
+
 var_dump($decoded); // array(1) { ["hello"]=> int(123) }
 
 ```
