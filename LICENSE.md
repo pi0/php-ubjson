@@ -1,7 +1,7 @@
 php-ubjson License
 ====================
 
-_Copyright © 2016, Vladimir Zbrailov<dizews@gmail.com>, Pooya Parsa<pooya@pi0.ir>_  
+_Copyright © 2016, Vladimir Zbrailov (dizews@gmail.com), Pooya Parsa(pooya@pi0.ir)_  
 _All rights reserved._
 
 Redistribution and use in source and binary forms, with or without
