@@ -9,6 +9,7 @@
             "email": "pooya@pi0.ir"
         }
     ],
+	"license" : "BSD-3-Clause",
     "name": "fandogh/php-ubjson",
     "require": {
         "php": ">=5.3.0"
