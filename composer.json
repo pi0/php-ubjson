@@ -3,6 +3,10 @@
         {
             "name": "Vladimir Zbrailov",
             "email": "dizews@gmail.com"
+        },
+        {
+            "name": "Pooya Parsa",
+            "email": "pooya@pi0.ir"
         }
     ],
     "name": "fandogh/php-ubjson",
@@ -11,5 +15,6 @@
     },
     "autoload": {
         "classmap": ["./"]
-    }
+    },
+	"minimum-stability": "dev"
 }
