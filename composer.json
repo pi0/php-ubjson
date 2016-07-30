@@ -5,7 +5,7 @@
             "email": "dizews@gmail.com"
         }
     ],
-    "name": "dizews/php-ubjson",
+    "name": "fandogh/php-ubjson",
     "require": {
         "php": ">=5.3.0"
     },
